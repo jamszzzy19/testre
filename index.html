@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,5 +18,25 @@
 </head>
 <body>
     <p>Redirecting...</p>
+</body>
+</html>
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Redirect</title>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                window.location.replace("https://example1.com/");
+            }, 10000);
+        });
+    </script>
+</head>
+<body>
+    <p>Redirecting in 10 seconds...</p>
 </body>
 </html>
